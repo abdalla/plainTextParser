@@ -1,6 +1,6 @@
 {
   "name": "plaintextparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "plain text parser",
   "main": "plainTextParser.js",
   "scripts": {

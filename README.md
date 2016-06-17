@@ -22,6 +22,8 @@ app.use(plainTextParser());
 OR
 ```
 app.post(YOUR_ROUTE, plainTextParser, function(req, res) {             
-   //DO SOMETHING....
+  let text = req.text;
+
+  //DO SOMETHING....
 });
 ```
