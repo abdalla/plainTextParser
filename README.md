@@ -17,7 +17,7 @@ let plainTextParser = require('plainTextParser');
 ```
 
 ```
-app.use(plainTextParser);
+app.use(plainTextParser());
 ```
 OR
 ```
