@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.6
+3 info using node@v6.1.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Projects\\MSDEV\\plainTextParser',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Abdalla\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle plaintextparser@1.0.0~prepublish: plaintextparser@1.0.0
+11 silly lifecycle plaintextparser@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Abdalla\\AppData\\Roaming\\npm-cache\\plaintextparser\\1.0.0\\package.tgz',
+12 verbose tar pack   'C:\\Projects\\MSDEV\\plainTextParser' ]
+13 verbose tarball C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package.tgz
+14 verbose folder C:\Projects\MSDEV\plainTextParser
+15 verbose addLocalTarball adding from inside cache C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\Abdalla\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd plaintextparser@1.0.0
+18 verbose afterAdd C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Abdalla\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package\package.json written
+21 silly publish { name: 'plaintextparser',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'plain text parser',
+21 silly publish   main: 'plainTextParser.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/abdalla/plainTextParser.git' },
+21 silly publish   keywords: [ 'parser', 'plain/text', 'express', 'node' ],
+21 silly publish   author: { name: 'Carlos Abdalla' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/abdalla/plainTextParser/issues' },
+21 silly publish   homepage: 'https://github.com/abdalla/plainTextParser#readme',
+21 silly publish   readme: '# Plain/Text Parser\r\nMiddleware for express to accept plain text on posts\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'ba7608a5e3e6b5a296efd60005bc747995f3d958',
+21 silly publish   _id: 'plaintextparser@1.0.0',
+21 silly publish   _shasum: '6a9b19becc9cab0d0f3f553cd571a81c42141698',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name plaintextparser
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'plaintextparser',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'plaintextparser',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/plaintextparser
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Abdalla\AppData\Roaming\npm-cache\plaintextparser\1.0.0\package.tgz
+30 verbose stack Error: auth required for publishing
+30 verbose stack     at CachingRegistryClient.publish (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\publish.js:30:14)
+30 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:137:14
+30 verbose stack     at mapToRegistry (C:\Program Files\nodejs\node_modules\npm\lib\utils\map-to-registry.js:62:3)
+30 verbose stack     at publish_ (C:\Program Files\nodejs\node_modules\npm\lib\publish.js:106:3)
+30 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+30 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+30 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+30 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+30 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:72:5
+30 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+31 verbose cwd C:\Projects\MSDEV\plainTextParser
+32 error Windows_NT 10.0.10586
+33 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+34 error node v6.1.0
+35 error npm  v3.8.6
+36 error code ENEEDAUTH
+37 error need auth auth required for publishing
+38 error need auth You need to authorize this machine using `npm adduser`
+39 verbose exit [ 1, true ]

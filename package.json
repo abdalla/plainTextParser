@@ -1,0 +1,25 @@
+{
+  "name": "plaintextparser",
+  "version": "1.0.0",
+  "description": "plain text parser",
+  "main": "plainTextParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdalla/plainTextParser.git"
+  },
+  "keywords": [
+    "parser",
+    "plain/text",
+    "express",
+    "node"
+  ],
+  "author": "Carlos Abdalla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdalla/plainTextParser/issues"
+  },
+  "homepage": "https://github.com/abdalla/plainTextParser#readme"
+}
