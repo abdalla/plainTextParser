@@ -1,3 +1,4 @@
+"use strict"
 let plainTextParser =  (req, res, next) => {
     if (req.is('text/*')) {
         req.text = '';
